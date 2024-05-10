@@ -4,11 +4,12 @@
   "description": "Projet 4 Oh my food",
   "main": "index.js",
   "scripts": {
-    "sass": "sass --watch ./sass/app.css:./css/style.css"
+    "sass": "sass --watch ./sass/app.scss:.assets/css/style.css"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "saas": "^1.0.0"
+    "saas": "^1.0.0",
+    "sass": "^1.77.0"
   }
 }
