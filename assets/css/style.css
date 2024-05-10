@@ -1,9 +1,10 @@
-h1 {
-  color: red;
-  font-size: 22px;
+.header {
+  display: grid;
+  justify-items: center;
 }
 
-header {
+.accueil {
+  text-align: center;
   background-color: red;
 }
 

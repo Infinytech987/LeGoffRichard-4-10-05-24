@@ -1,8 +1,12 @@
 // Code Général par défaut //
-h1 {
-    color: red;
-    font-size: 22px;
-}   
-header{
-    background-color: red;
-}
+
+    .header {
+        display: grid;
+        justify-items: center;
+           
+            }
+    
+    .accueil {
+        text-align: center;
+        background-color: red;
+    }
