@@ -3,9 +3,10 @@
   justify-items: center;
 }
 
-.location {
+.location input {
   border: none;
 }
+
 .accueil {
   text-align: center;
   background-color: red;

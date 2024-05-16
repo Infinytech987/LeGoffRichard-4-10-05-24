@@ -1,0 +1,18 @@
+// Code Général (default) //
+
+.header {
+  display: grid;
+  justify-items: center;
+}
+.location {
+  i {
+  }
+  input {
+    border: none;
+  }
+}
+
+.accueil {
+  text-align: center;
+  background-color: $myRed;
+}
