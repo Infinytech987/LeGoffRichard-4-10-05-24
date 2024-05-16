@@ -3,6 +3,9 @@
   justify-items: center;
 }
 
+.location {
+  border: none;
+}
 .accueil {
   text-align: center;
   background-color: red;
