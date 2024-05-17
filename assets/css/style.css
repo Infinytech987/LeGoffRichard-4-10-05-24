@@ -6,14 +6,35 @@
   display: grid;
   justify-items: center;
 }
+.header img {
+  padding: 21px 20px 12px 20px;
+}
 
+.location {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: rgb(234, 234, 234);
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.location i {
+  color: rgb(53, 53, 53);
+  background-color: rgb(234, 234, 234);
+}
 .location input {
   border: none;
   font-size: 16px;
+  color: rgb(53, 53, 53);
+  background-color: rgb(234, 234, 234);
 }
 
 .accueil {
   text-align: center;
+}
+.accueil p {
+  font-size: 18px;
 }
 
 .btn1 {
