@@ -3,8 +3,9 @@
 }
 
 .header {
-  display: grid;
-  justify-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .header img {
   padding: 21px 20px 12px 20px;
@@ -17,17 +18,23 @@
   align-items: center;
   padding: 20px;
   background-color: rgb(234, 234, 234);
-  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: 4px 2px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .location i {
   color: rgb(53, 53, 53);
   background-color: rgb(234, 234, 234);
+  margin-left: 40px;
 }
 .location input {
   border: none;
   font-size: 16px;
   color: rgb(53, 53, 53);
   background-color: rgb(234, 234, 234);
+  padding-left: 20px;
+}
+
+.pre-accueil {
+  background-color: rgb(243, 243, 243);
 }
 
 .accueil {
@@ -37,8 +44,31 @@
   font-size: 18px;
 }
 
+.restaurants {
+  background-color: rgb(243, 243, 243);
+}
+.restaurants img {
+  height: 231px;
+  width: auto;
+}
+.restaurants p {
+  font-size: 17px;
+  font-weight: lighter;
+}
+
+.footer {
+  background-color: rgb(53, 53, 53);
+  color: white;
+  font-weight: 500;
+}
+.footer img {
+  color: white;
+  width: 137.58px;
+  height: auto;
+}
+
 .btn1 {
-  background-image: linear-gradient(to bottom, rgba(255, 128, 255, 0.5), rgba(0, 0, 128, 0.5));
+  background-image: linear-gradient(193.33deg, #ff79da -11.44%, #9356dc 123.93%);
   height: 50px;
   width: auto;
   border-radius: 30px;
@@ -46,18 +76,24 @@
   box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
   color: white;
   font-size: 16px;
-  font-weight: bold;
+  font-weight: 500;
   padding-inline: 20px;
 }
 
 .btn2 {
-  color: yellow;
+  border-radius: 20px;
+  width: 100%;
+  height: 72.38px;
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.15);
+  border: 0;
+  font-size: 16px;
+  font-weight: 500;
 }
 
 .button {
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
 }
 
 .h1 {
@@ -142,6 +178,13 @@
   font-family: "Roboto", sans-serif;
   font-weight: 900;
   font-style: italic;
+}
+
+.card {
+  background-color: white;
+  border-radius: 20px;
+  padding: 5px;
+  filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
 }
 
 /*# sourceMappingURL=style.css.map */
