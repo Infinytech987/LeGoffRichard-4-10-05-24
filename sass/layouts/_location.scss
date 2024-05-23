@@ -1,0 +1,24 @@
+// PAris Belleville //
+
+.location {
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: rgba(234, 234, 234, 1);
+  box-shadow: 4px 2px 4px 4px rgba(0, 0, 0, 0.25);
+
+  i {
+    color: rgba(53, 53, 53, 1);
+    background-color: rgba(234, 234, 234, 1);
+    margin-left: 40px;
+  }
+  input {
+    border: none;
+    font-size: 16px;
+    color: rgba(53, 53, 53, 1);
+    background-color: rgba(234, 234, 234, 1);
+    padding-left: 20px;
+  }
+}

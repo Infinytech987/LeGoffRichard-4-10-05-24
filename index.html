@@ -25,43 +25,52 @@
         <input type="text" value="Paris, Belleville" />
       </div>
     </header>
+
     <!-- Accueil -->
     <section class="pre-accueil">
       <div class="accueil">
         <h1>Réservez le menu qui vous convient</h1>
         <p>Découvrez des restaurants d'exception, séléctionnés par nos soins.</p>
       </div>
-      <!-- Btn1 -->
-      <div class="button">
-        <button class="btn1">Explorer nos restaurants</button>
-        <a href="#restaurants"></a>
+
+      <!-- Button1 -->
+      <div>
+        <a href="#restaurants" class="button1 btn1">Explorer nos restaurants</a>
       </div>
     </section>
 
-    <!-- Fonctionnement -->
+    <!-- Fonctionnement + Button2 -->
     <section class="fonctionnement">
-      <h1>Fonctionnement</h1>
-      <button class="button btn2"><i class="fa-solid fa-mobile-screen-button"></i>Choisissez un restaurant</button>
+      <h2>Fonctionnement</h2>
+      <div class="button2 btn2">
+        <span>1</span>
+        <p><i class="fa-solid fa-mobile-screen-button"></i>Choisissez un restaurant</p>
+      </div>
     </section>
+
     <!-- Restaurants -->
     <section class="restaurants">
-      <h1>Restaurants</h1>
+      <h2>Restaurants</h2>
       <article class="card">
         <img src="assets/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="Image de la palette du goût à Menilmontant" />
-        <input type="button" value="nouveau" />
-        <div>
+        <span>Nouveau</span>
+        <div class="card__text">
           <h2>La Palette du Goût</h2>
           <p>Ménilmontant</p>
+          <i class="fa-regular fa-heart"></i>
         </div>
       </article>
     </section>
+
     <!-- <footer> -->
     <footer class="footer">
       <img src="/assets/images/logo/ohmyfood@2x.svg" alt="Logo Oh My Food" />
-      <h3>Proposer un restaurant</h3>
-      <h3>Devenir propriétaire</h3>
-      <h3>Mentions légales</h3>
-      <h3>Contact</h3>
+      <ul>
+        <li><i class="fa-solid fa-utensils"></i><a href="#">Proposer un restaurant</a></li>
+        <li><i class="fa-solid fa-handshake-angle"></i><a href="#">Devenir propriétaire</a></li>
+        <li><a href="#">Mentions légales</a></li>
+        <li><a href="mailto:test@test.fr">Contact</a></li>
+      </ul>
     </footer>
   </body>
 </html>

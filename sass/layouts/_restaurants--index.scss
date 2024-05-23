@@ -1,0 +1,12 @@
+// Restaurants //
+.restaurants {
+  background-color: $grey;
+  img {
+    height: 231px;
+    width: auto;
+    object-fit: cover;
+  }
+  span {
+    border: 2px black;
+  }
+}
