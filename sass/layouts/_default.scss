@@ -1,14 +1,13 @@
 // Code Général (default) //
 
 // Police Générale //
-* {
+body {
+  margin: 0;
   font-family: "Roboto", sans-serif;
 }
 
 // Page Principale //
-.pre-accueil {
-  background-color: $grey;
-}
+
 .accueil {
   text-align: center;
 }

@@ -17,6 +17,10 @@
     <title>Oh My Food</title>
   </head>
   <body>
+    <!-- Loader -->
+    <div class="loader-position">
+      <div class="loader-spinner-logo"></div>
+    </div>
     <!-- Header -->
     <header class="header">
       <img src="/assets/images/logo/ohmyfood@2x.svg" alt="Logo Oh My Food" />
@@ -25,42 +29,124 @@
         <input type="text" value="Paris, Belleville" />
       </div>
     </header>
-
-    <!-- Accueil -->
-    <section class="pre-accueil">
-      <div class="accueil">
-        <h1>Réservez le menu qui vous convient</h1>
-        <p>Découvrez des restaurants d'exception, séléctionnés par nos soins.</p>
-      </div>
-
-      <!-- Button1 -->
-      <div>
-        <a href="#restaurants" class="button1 btn1">Explorer nos restaurants</a>
-      </div>
-    </section>
-
-    <!-- Fonctionnement + Button2 -->
-    <section class="fonctionnement">
-      <h2>Fonctionnement</h2>
-      <div class="button2 btn2">
-        <span>1</span>
-        <p><i class="fa-solid fa-mobile-screen-button"></i>Choisissez un restaurant</p>
-      </div>
-    </section>
-
-    <!-- Restaurants -->
-    <section class="restaurants">
-      <h2>Restaurants</h2>
-      <article class="card">
-        <img src="assets/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="Image de la palette du goût à Menilmontant" />
-        <span>Nouveau</span>
-        <div class="card__text">
-          <h2>La Palette du Goût</h2>
-          <p>Ménilmontant</p>
-          <i class="fa-regular fa-heart"></i>
+    <main>
+      <!-- Accueil -->
+      <section class="pre-accueil">
+        <div class="accueil">
+          <h1>Réservez le menu qui vous convient</h1>
+          <p>Découvrez des restaurants d'exception, séléctionnés par nos soins.</p>
         </div>
-      </article>
-    </section>
+
+        <!-- Button1 -->
+        <div class="button1">
+          <a href="#restaurants" class="btn1">Explorer nos restaurants</a>
+        </div>
+      </section>
+
+      <!-- Fonctionnement -->
+      <nav>
+        <h2>Fonctionnement</h2>
+        <ol>
+          <li>
+            <span>1</span>
+            <a href="#"><i class="fa-solid fa-mobile-screen-button fa-lg" aria-hidden="true"></i>Choisissez un restaurant</a>
+          </li>
+          <li>
+            <span>2</span>
+            <a href="#"><i class="fa-solid fa-list fa-lg" aria-hidden="true"></i>Composez votre menu</a>
+          </li>
+          <li>
+            <span>3</span>
+            <a href="#"><i class="fa-solid fa-store fa-lg" aria-hidden="true"></i>Déguster au restaurant</a>
+          </li>
+        </ol>
+      </nav>
+
+      <!-- Restaurants -->
+      <section id="section_menu" class="restaurants--index">
+        <h2>Restaurants</h2>
+        <article>
+          <div class="card__menu">
+            <a href="menu_La_palette_du_gout.html">
+              <div class="news">
+                <p>Nouveau</p>
+              </div>
+              <img src="assets/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="La palette du goût" />
+            </a>
+            <div class="card__body">
+              <a href="menu_La_palette_du_gout.html">
+                <div class="card__title">
+                  <h3>La palette du goût</h3>
+                  <p>Ménilmontant</p>
+                </div>
+              </a>
+              <button class="btn-heart">
+                <i class="fa-regular fa-heart fa-2x empty-heart" aria-hidden="true"></i>
+                <i class="fa-solid fa-heart fa-2x full-heart" aria-hidden="true"></i>
+              </button>
+            </div>
+          </div>
+
+          <div class="card__menu">
+            <a href="menu_La_note_enchantée.html">
+              <div class="news">
+                <p>Nouveau</p>
+              </div>
+              <img src="assets/images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg" alt="La note enchantée" />
+            </a>
+            <div class="card__body">
+              <a href="menu_La_note_enchantée.html">
+                <div class="card__title">
+                  <h3>La note enchantée</h3>
+                  <p>Charonne</p>
+                </div>
+              </a>
+              <button class="btn-heart">
+                <i class="fa-regular fa-heart fa-2x empty-heart" aria-hidden="true"></i>
+                <i class="fa-solid fa-heart fa-2x full-heart" aria-hidden="true"></i>
+              </button>
+            </div>
+          </div>
+        </article>
+        <article id="section_menu2">
+          <div class="card__menu">
+            <a href="menu_A_la_française.html">
+              <img src="assets/images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="À la française" />
+            </a>
+            <div class="card__body">
+              <a href="menu_La_palette_du_gout.html">
+                <div class="card__title">
+                  <h3>À la française</h3>
+                  <p>Cité Rouge</p>
+                </div>
+              </a>
+              <button class="btn-heart">
+                <i class="fa-regular fa-heart fa-2x empty-heart" aria-hidden="true"></i>
+                <i class="fa-solid fa-heart fa-2x full-heart" aria-hidden="true"></i>
+              </button>
+            </div>
+          </div>
+
+          <div class="card__menu">
+            <a href="menu_Le_délice_des_sens.html">
+              <img src="assets/images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg" alt="Le délice des sens" />
+            </a>
+            <div class="card__body">
+              <a href="menu_La_palette_du_gout.html">
+                <div class="card__title">
+                  <h3>Le délice des sens</h3>
+                  <p>Folie-Méricourt</p>
+                </div>
+              </a>
+              <button class="btn-heart">
+                <i class="fa-regular fa-heart fa-2x empty-heart" aria-hidden="true"></i>
+                <i class="fa-solid fa-heart fa-2x full-heart" aria-hidden="true"></i>
+              </button>
+            </div>
+          </div>
+        </article>
+      </section>
+    </main>
 
     <!-- <footer> -->
     <footer class="footer">
