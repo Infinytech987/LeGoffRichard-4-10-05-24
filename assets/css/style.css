@@ -129,8 +129,8 @@ body {
 
 .footer ul {
   color: white;
-  background-color: aqua;
   list-style-type: none;
+  background-color: rgb(53, 53, 53);
 }
 .footer img {
   width: 137.58px;
