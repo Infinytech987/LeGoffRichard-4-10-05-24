@@ -127,14 +127,17 @@ body {
   font-style: italic;
 }
 
-.footer ul {
-  color: white;
-  list-style-type: none;
+.footer {
   background-color: rgb(53, 53, 53);
+  color: white;
+  width: 100%;
+  padding: 20px 0 20px 0;
 }
 .footer img {
   width: 137.58px;
   height: auto;
+  margin: 10px 0 0 30px;
+  padding-bottom: 5px;
 }
 
 .location {
@@ -314,6 +317,10 @@ nav span {
     transform: rotate(360deg);
     opacity: 1;
   }
+}
+.menu img {
+  height: 275px;
+  width: auto;
 }
 
 /*# sourceMappingURL=style.css.map */
