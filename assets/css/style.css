@@ -128,16 +128,36 @@ body {
 }
 
 .footer {
+  display: flex;
+  flex-direction: column;
   background-color: rgb(53, 53, 53);
   color: white;
-  width: 100%;
-  padding: 20px 0 20px 0;
+  margin-left: -20px;
 }
 .footer img {
   width: 137.58px;
   height: auto;
-  margin: 10px 0 0 30px;
+  margin: 10px 0 0 44px;
   padding-bottom: 5px;
+}
+.footer li {
+  list-style-type: none;
+  padding: 5px;
+}
+.footer i {
+  margin-right: 10px;
+}
+
+.footer-text1 {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.footer-text2 {
+  color: white;
+  text-decoration: none;
+  font-weight: 400;
 }
 
 .location {
@@ -318,9 +338,13 @@ nav span {
     opacity: 1;
   }
 }
-.menu img {
-  height: 275px;
-  width: auto;
+.img-menu {
+  width: 200px;
+  height: 200px;
+}
+
+.entrees-menu {
+  background-color: red;
 }
 
 /*# sourceMappingURL=style.css.map */

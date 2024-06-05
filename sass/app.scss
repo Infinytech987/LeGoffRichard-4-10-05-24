@@ -1,16 +1,19 @@
 // Fichier de Base Scss //
 
-@import "variables.scss";
-@import "layouts/default.scss";
-@import "components/button.scss";
-@import "layouts/fonts.scss";
-@import "layouts/font-style.scss";
-@import "components/footer.scss";
-@import "layouts/index.scss";
-@import "components/header.scss";
-@import "layouts/location.scss";
-@import "layouts/fonctionnement.scss";
-@import "layouts/restaurants--card--index.scss";
-@import "layouts/animations.scss";
-@import "responsive.scss";
-@import "layouts/menu.scss";
+@import "variables";
+@import "layouts/default";
+@import "components/button";
+@import "layouts/fonts";
+@import "layouts/font-style";
+@import "components/footer";
+@import "layouts/index";
+@import "components/header";
+@import "layouts/location";
+@import "layouts/fonctionnement";
+@import "layouts/restaurants--card--index";
+@import "layouts/animations";
+@import "responsive";
+@import "menus/img-menu";
+@import "menus/entrees";
+@import "menus/plats";
+@import "menus/desserts";
