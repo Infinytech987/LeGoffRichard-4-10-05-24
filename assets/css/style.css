@@ -35,6 +35,16 @@ body {
   box-shadow: 0.25rem 0.25rem 10px rgba(0, 0, 0, 0.45);
 }
 
+.btn-heart:hover .empty-heart {
+  display: none;
+}
+.btn-heart:hover .full-heart {
+  display: block;
+}
+.btn-heart .full-heart {
+  display: none;
+}
+
 .h1 {
   font-size: 24px;
 }
@@ -333,13 +343,12 @@ nav a {
     opacity: 1;
   }
 }
-.img-menu {
-  width: 200px;
-  height: 200px;
+.menu {
+  background-color: aqua;
 }
-
-.entrees-menu {
-  background-color: red;
+.menu img {
+  height: 234px;
+  width: auto;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -25,4 +25,17 @@
   }
 }
 .btn-heart {
+  &:hover {
+    .empty-heart {
+      display: none;
+    }
+    .full-heart {
+      display: block;
+    }
+  }
+  .empty-heart {
+  }
+  .full-heart {
+    display: none;
+  }
 }
