@@ -25,6 +25,9 @@
   }
 }
 .btn-heart {
+  border: none;
+  background-color: white;
+
   &:hover {
     .empty-heart {
       display: none;

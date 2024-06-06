@@ -35,6 +35,10 @@ body {
   box-shadow: 0.25rem 0.25rem 10px rgba(0, 0, 0, 0.45);
 }
 
+.btn-heart {
+  border: none;
+  background-color: white;
+}
 .btn-heart:hover .empty-heart {
   display: none;
 }
@@ -156,6 +160,7 @@ body {
 }
 .footer i {
   margin-right: 10px;
+  width: 20px;
 }
 
 .footer-text1 {
