@@ -26,14 +26,9 @@ nav {
     text-decoration: none;
     color: black;
     font-weight: bold;
-    display: block;
     width: 280px;
     display: flex;
     align-items: center;
     justify-content: space-around;
-  }
-  span {
-    border: 2px solid black;
-    border-radius: 50%;
   }
 }
