@@ -198,6 +198,19 @@ body {
   padding: 20px;
 }
 
+.headermenu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.headermenu a {
+  background-color: aqua;
+}
+.headermenu img {
+  margin: auto;
+  padding: 20px;
+}
+
 .location {
   width: auto;
   display: flex;
@@ -348,12 +361,13 @@ nav a {
     opacity: 1;
   }
 }
-.menu {
-  background-color: aqua;
-}
 .menu img {
-  height: 234px;
+  height: 275px;
   width: auto;
+}
+
+.card {
+  background-color: bisque;
 }
 
 /*# sourceMappingURL=style.css.map */

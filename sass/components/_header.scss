@@ -5,3 +5,15 @@
     padding: 20px;
   }
 }
+.headermenu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  a {
+    background-color: aqua;
+  }
+  img {
+    margin: auto;
+    padding: 20px;
+  }
+}
