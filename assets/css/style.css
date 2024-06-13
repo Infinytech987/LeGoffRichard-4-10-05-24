@@ -387,6 +387,11 @@ nav a {
   font-style: italic;
 }
 
+.entree-menu h3 {
+  font-size: 16px;
+  font-weight: 300;
+}
+
 .card {
   background-color: aquamarine;
 }
