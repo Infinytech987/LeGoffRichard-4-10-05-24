@@ -365,7 +365,15 @@ nav a {
 }
 .menu img {
   height: 275px;
-  width: auto;
+  width: 100%;
+  object-fit: cover;
+}
+.menu .title__menu {
+  display: flex;
+}
+.menu .title__menu h1 {
+  font-size: 28px;
+  background-color: aqua;
 }
 
 .card {

@@ -1,7 +1,15 @@
 .menu {
   img {
     height: 275px;
-    width: auto;
+    width: 100%;
+    object-fit: cover;
+  }
+  .title__menu {
+    display: flex;
+    h1 {
+      font-size: 28px;
+      background-color: aqua;
+    }
   }
 }
 .card {
