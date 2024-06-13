@@ -44,6 +44,8 @@ body {
 }
 .btn-heart:hover .full-heart {
   display: block;
+  color: rgb(147, 86, 220);
+  border: none;
 }
 .btn-heart .full-heart {
   display: none;
