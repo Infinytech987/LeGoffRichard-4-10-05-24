@@ -143,6 +143,12 @@ body {
   font-style: italic;
 }
 
+.shrikhand-regular {
+  font-family: "Shrikhand", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 .footer {
   display: flex;
   flex-direction: column;
@@ -368,16 +374,21 @@ nav a {
   width: 100%;
   object-fit: cover;
 }
-.menu .title__menu {
+
+.title__menu {
   display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
-.menu .title__menu h1 {
+.title__menu h1 {
   font-size: 28px;
-  background-color: aqua;
+  font-family: "Shrikhand", serif;
+  font-weight: 400;
+  font-style: italic;
 }
 
 .card {
-  background-color: bisque;
+  background-color: aquamarine;
 }
 
 /*# sourceMappingURL=style.css.map */

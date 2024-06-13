@@ -4,14 +4,24 @@
     width: 100%;
     object-fit: cover;
   }
-  .title__menu {
-    display: flex;
-    h1 {
-      font-size: 28px;
-      background-color: aqua;
-    }
+}
+.title__menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  h1 {
+    font-size: 28px;
+    font-family: "Shrikhand", serif;
+    font-weight: 400;
+    font-style: italic;
   }
 }
 .card {
-  background-color: bisque;
+  background-color: aquamarine;
+}
+.card-title {
+}
+.card-body {
+}
+.p-body {
 }
