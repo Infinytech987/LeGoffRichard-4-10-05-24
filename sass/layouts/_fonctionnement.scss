@@ -1,6 +1,9 @@
 // Fonctionnement //
 
-nav {
+.nav {
+  h2 {
+    margin-left: 15px;
+  }
   ol {
     display: flex;
     flex-direction: column;
@@ -9,7 +12,6 @@ nav {
     height: 290px;
     padding-left: 0px;
     list-style: none;
-    counter-reset: li;
   }
   li {
     display: flex;
@@ -20,7 +22,17 @@ nav {
     border-radius: 20px;
     height: 80px;
     width: 90%;
-    counter-increment: li;
+  }
+  span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(147, 86, 220);
+    color: white;
+    border-radius: 100%;
+    height: 23px;
+    width: 23px;
+    font-size: 14.18px;
   }
   a {
     text-decoration: none;
