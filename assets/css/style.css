@@ -212,7 +212,9 @@ body {
   justify-content: center;
 }
 .headermenu a {
-  background-color: aqua;
+  font-size: 1.3em;
+  color: black;
+  margin-left: 25px;
 }
 .headermenu img {
   margin: auto;
