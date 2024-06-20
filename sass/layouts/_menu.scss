@@ -5,6 +5,16 @@
     object-fit: cover;
   }
 }
+.section__menu {
+  border: 0px white solid;
+  background-color: rgba(246, 246, 246, 1);
+  border-radius: 20px;
+  margin: 0 15px 15px 15px;
+  box-shadow: 2px 2px 12px -11px rgba(0, 0, 0, 0.95);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
 .title__menu {
   display: flex;
   justify-content: space-around;
@@ -20,10 +30,19 @@
   h3 {
     font-size: 16px;
     font-weight: 300;
+    text-decoration: underline;
+    margin-left: 15px;
   }
 }
 .card {
-  background-color: aquamarine;
+  border: 0px white solid;
+  background-color: white;
+  border-radius: 20px;
+  margin: 0 15px 15px 15px;
+  box-shadow: 2px 2px 12px -11px rgba(0, 0, 0, 0.95);
+  position: relative;
+  display: flex;
+  flex-direction: column;
 }
 .card-title {
 }

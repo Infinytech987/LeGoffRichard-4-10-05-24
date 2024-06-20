@@ -393,10 +393,86 @@ body {
     opacity: 1;
   }
 }
+/*ANIMATION APPEAR CARD MENU */
+.animation-card {
+  animation-name: appear;
+  animation-duration: 1000ms;
+  animation-fill-mode: backwards;
+}
+
+.animation-entree {
+  animation-delay: 0.25s;
+}
+
+.animation-plat {
+  animation-delay: 0.5s;
+}
+
+.animation-dessert {
+  animation-delay: 0.75s;
+}
+
+@keyframes appear {
+  from {
+    transform: translateY(-100px);
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+/* ANIMATION BTN-CHECK */
+/* Before animation */
+.card {
+  position: relative;
+  overflow: hidden;
+  /* After animation */
+}
+.card .btn-check {
+  border: 0;
+  position: absolute;
+  top: 0px;
+  right: -100px;
+  background-color: rgb(153, 226, 208);
+  height: 100%;
+  width: 65px;
+  border-radius: 0 20px 20px 0;
+  transition-duration: 0.55s;
+}
+.card .btn-check .fa-circle-check {
+  color: white;
+  transform: rotate(220deg);
+  transition-duration: 0.6s;
+}
+.card:hover {
+  cursor: pointer;
+}
+.card:hover .btn-check {
+  right: 0;
+}
+.card:hover .fa-circle-check {
+  transform: rotate(0deg);
+}
+.card:hover strong {
+  margin-right: 60px;
+}
+
 .menu img {
   height: 275px;
   width: 100%;
   object-fit: cover;
+}
+
+.section__menu {
+  border: 0px white solid;
+  background-color: rgb(246, 246, 246);
+  border-radius: 20px;
+  margin: 0 15px 15px 15px;
+  box-shadow: 2px 2px 12px -11px rgba(0, 0, 0, 0.95);
+  position: relative;
+  display: flex;
+  flex-direction: column;
 }
 
 .title__menu {
@@ -414,10 +490,19 @@ body {
 .entree-menu h3 {
   font-size: 16px;
   font-weight: 300;
+  text-decoration: underline;
+  margin-left: 15px;
 }
 
 .card {
-  background-color: aquamarine;
+  border: 0px white solid;
+  background-color: white;
+  border-radius: 20px;
+  margin: 0 15px 15px 15px;
+  box-shadow: 2px 2px 12px -11px rgba(0, 0, 0, 0.95);
+  position: relative;
+  display: flex;
+  flex-direction: column;
 }
 
 /*# sourceMappingURL=style.css.map */
