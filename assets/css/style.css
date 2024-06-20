@@ -255,6 +255,13 @@ body {
   padding-left: 0px;
   list-style: none;
 }
+.nav i {
+  color: rgb(126, 126, 126);
+  margin: 0 10px;
+}
+.nav .fa-store {
+  color: rgb(147, 86, 220);
+}
 .nav li {
   display: flex;
   align-items: center;
@@ -275,15 +282,11 @@ body {
   height: 23px;
   width: 23px;
   font-size: 14.18px;
+  margin-left: -12px;
 }
 .nav a {
   text-decoration: none;
   color: black;
-  font-weight: bold;
-  width: 280px;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
 }
 
 #section_menu h2 {
