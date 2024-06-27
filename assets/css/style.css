@@ -468,14 +468,14 @@ body {
 }
 
 .section__menu {
-  border: 0px white solid;
   background-color: rgb(246, 246, 246);
   border-radius: 20px;
-  margin: 0 15px 15px 15px;
+  margin-top: -20px;
   box-shadow: 2px 2px 12px -11px rgba(0, 0, 0, 0.95);
   position: relative;
   display: flex;
   flex-direction: column;
+  padding: 20px;
 }
 
 .title__menu {
@@ -493,8 +493,13 @@ body {
 .entree-menu h3 {
   font-size: 16px;
   font-weight: 300;
-  text-decoration: underline;
   margin-left: 15px;
+}
+.entree-menu hr {
+  width: 40px;
+  border: 3px solid;
+  margin: 16px;
+  border-color: rgb(153, 226, 208);
 }
 
 .card {
