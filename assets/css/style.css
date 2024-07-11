@@ -37,7 +37,7 @@ body {
 
 .btn-heart {
   border: none;
-  background-color: white;
+  background-color: rgb(246, 246, 246);
 }
 .btn-heart:hover .empty-heart {
   display: none;
