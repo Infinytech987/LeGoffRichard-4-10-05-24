@@ -3,8 +3,17 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+.pre-accueil {
+  background-color: rgb(243, 243, 243);
+  padding: 20px 20px 65px 20px;
+}
+
 .accueil {
   text-align: center;
+}
+.accueil p {
+  font-size: 18px;
+  font-weight: 300;
 }
 
 .button1 {
@@ -21,7 +30,6 @@ body {
   height: 50px;
   width: 50%;
   padding-inline: 20px;
-  margin-bottom: 20px;
   border-radius: 30px;
   border: 0;
   box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
@@ -183,23 +191,6 @@ body {
   font-weight: 400;
 }
 
-.location {
-  background-color: rgb(234, 234, 234);
-  box-shadow: 4px 2px 4px 4px rgba(0, 0, 0, 0.25);
-}
-.location i {
-  color: rgb(53, 53, 53);
-  background-color: rgb(234, 234, 234);
-  margin-left: 40px;
-}
-.location input {
-  border: none;
-  font-size: 16px;
-  color: rgb(53, 53, 53);
-  background-color: rgb(234, 234, 234);
-  padding-left: 20px;
-}
-
 .header img {
   margin: auto;
   display: flex;
@@ -226,9 +217,10 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 20px;
   background-color: rgb(234, 234, 234);
-  box-shadow: 4px 2px 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 20px 0px 20px 20px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  gap: 17px;
 }
 .location i {
   color: rgb(53, 53, 53);
@@ -240,7 +232,7 @@ body {
   font-size: 16px;
   color: rgb(53, 53, 53);
   background-color: rgb(234, 234, 234);
-  padding-left: 20px;
+  font-weight: 500;
 }
 
 .nav h2 {

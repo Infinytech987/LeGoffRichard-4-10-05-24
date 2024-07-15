@@ -7,7 +7,14 @@ body {
 }
 
 // Page Principale //
-
+.pre-accueil {
+  background-color: $grey;
+  padding: 20px 20px 65px 20px;
+}
 .accueil {
   text-align: center;
+  p {
+    font-size: 18px;
+    font-weight: 300;
+  }
 }
