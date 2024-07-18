@@ -3,6 +3,7 @@
 .nav {
   h2 {
     margin-left: 15px;
+    margin-top: 50px;
   }
   ol {
     display: flex;
@@ -13,12 +14,23 @@
     padding-left: 0px;
     list-style: none;
   }
-  i {
+  .fa-mobile-screen-button {
     color: $grey3;
-    margin: 0 10px;
+    margin: 0 30px;
+    width: 13.02px;
+    height: 19.9px;
+  }
+  .fa-list {
+    color: $grey3;
+    margin: 0 30px;
+    width: 16px;
+    height: 15.92px;
   }
   .fa-store {
     color: $purple;
+    margin: 0 30px;
+    width: 18px;
+    height: 17.91px;
   }
 
   li {
