@@ -238,19 +238,19 @@ body {
 .nav .fa-mobile-screen-button {
   color: rgb(126, 126, 126);
   margin: 0 30px;
-  width: 13.02px;
+  width: 20px;
   height: 19.9px;
 }
 .nav .fa-list {
   color: rgb(126, 126, 126);
   margin: 0 30px;
-  width: 16px;
+  width: 20px;
   height: 15.92px;
 }
 .nav .fa-store {
   color: rgb(147, 86, 220);
   margin: 0 30px;
-  width: 18px;
+  width: 20px;
   height: 17.91px;
 }
 .nav li {
@@ -282,6 +282,7 @@ body {
 
 #section_menu {
   background-color: rgb(243, 243, 243);
+  padding-bottom: 50px;
 }
 #section_menu h2 {
   margin-left: 15px;
