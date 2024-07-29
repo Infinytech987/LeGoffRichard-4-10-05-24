@@ -14,12 +14,21 @@ body {
 .accueil p {
   font-size: 18px;
   font-weight: 300;
+  margin-bottom: 40px;
 }
 
 .button1 {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.button2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .btn1 {
@@ -178,7 +187,7 @@ body {
 .header img {
   margin: auto;
   display: flex;
-  padding: 20px;
+  padding: 33px 20px 20px 20px;
 }
 
 .headermenu {
@@ -193,7 +202,7 @@ body {
 }
 .headermenu img {
   margin: auto;
-  padding: 20px;
+  padding: 32px 46px 20px 0px;
 }
 
 .location {
@@ -527,10 +536,15 @@ body {
 
 .para-body {
   font-weight: 300;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  white-space-collapse: collapse;
+  text-wrap: nowrap;
+  overflow: hidden;
 }
 
 .plat {
-  margin-top: 17%;
+  margin-top: 50px;
 }
 
 /*# sourceMappingURL=style.css.map */

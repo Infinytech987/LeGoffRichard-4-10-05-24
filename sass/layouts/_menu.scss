@@ -67,7 +67,12 @@
 }
 .para-body {
   font-weight: 300;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  white-space-collapse: collapse;
+  text-wrap: nowrap;
+  overflow: hidden;
 }
 .plat {
-  margin-top: 17%;
+  margin-top: 50px;
 }
