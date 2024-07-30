@@ -466,6 +466,14 @@ body {
   margin-right: 60px;
 }
 
+@media (min-width: 992px) {
+  .header {
+    box-shadow: none;
+  }
+  .location {
+    box-shadow: none;
+  }
+}
 .menu img {
   height: 275px;
   width: 100%;
