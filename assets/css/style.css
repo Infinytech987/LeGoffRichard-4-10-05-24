@@ -473,6 +473,9 @@ body {
   .location {
     box-shadow: none;
   }
+  .nav ol {
+    width: 322.49px;
+  }
 }
 .menu img {
   height: 275px;
