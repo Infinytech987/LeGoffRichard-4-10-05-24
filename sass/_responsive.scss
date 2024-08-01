@@ -17,7 +17,15 @@
   }
   .nav {
     ol {
-      width: 322.49px;
+      display: flex;
+      flex-direction: row;
+      height: auto;
+      gap: 40px;
+      padding: 20px 20px 35px 20px;
     }
+  }
+  .responsive__card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 }

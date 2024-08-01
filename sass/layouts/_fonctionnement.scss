@@ -18,19 +18,16 @@
     color: $grey3;
     margin: 0 30px;
     width: 20px;
-    height: 19.9px;
   }
   .fa-list {
     color: $grey3;
     margin: 0 30px;
     width: 20px;
-    height: 15.92px;
   }
   .fa-store {
     color: $purple;
     margin: 0 30px;
     width: 20px;
-    height: 17.91px;
   }
 
   li {
@@ -58,5 +55,7 @@
   a {
     text-decoration: none;
     color: black;
+    display: flex;
+    align-items: center;
   }
 }
