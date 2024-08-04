@@ -484,6 +484,15 @@ body {
     grid-template-columns: 1fr 1fr;
   }
 }
+.footer {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+.footer ul {
+  display: flex;
+}
+
 .menu img {
   height: 275px;
   width: 100%;
