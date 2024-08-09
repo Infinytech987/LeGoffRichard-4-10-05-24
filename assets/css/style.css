@@ -37,6 +37,7 @@ body {
   justify-content: center;
   background-image: linear-gradient(180deg, #ff79da, #9356dc);
   height: 50px;
+  width: 186px;
   padding-inline: 20px;
   border-radius: 30px;
   border: 0;
@@ -154,7 +155,7 @@ body {
 }
 .footer img {
   width: 137.58px;
-  height: auto;
+  height: 27px;
   margin: 10px 0 0 44px;
   padding-bottom: 5px;
 }
@@ -473,7 +474,7 @@ body {
     box-shadow: none;
   }
   .nav {
-    padding-inline: 10%;
+    padding: 0% 10% 0% 10%;
   }
   .nav ol {
     display: flex;
@@ -485,21 +486,55 @@ body {
   .responsive__card {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding-inline: 6%;
+    column-gap: 80px;
+    row-gap: 40px;
+  }
+  #section_menu {
+    padding: 0% 10% 2% 10%;
+  }
+  #section_menu h2 {
+    margin-bottom: 30px;
+  }
+  .card__menu {
+    position: relative;
+  }
+  .section__menu {
+    margin: 0% 15% 0% 15%;
+    background-color: rgb(246, 246, 246);
+    border-radius: 20px 20px 0px 0px;
+    margin-top: -20px;
+    box-shadow: 2px 2px 12px -11px rgba(0, 0, 0, 0.95);
+    position: relative;
+    padding: 20px;
+  }
+  .menu img {
+    height: 383px;
+  }
+  .menu__responsive {
+    padding-right: 17%;
+    padding-left: 17%;
+  }
+  .footer__responsive {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding-top: 41px;
+    height: 6.5em;
+  }
+  .footer__responsive ul {
+    display: flex;
+  }
+  .footer__responsive img {
+    margin: 5px 30px 0px 90px;
+  }
+  .footer__responsive .footer-text2 {
+    margin-left: 55px;
+  }
+  .footer__responsive .footer__resp {
+    margin: 0px;
   }
 }
-#section_menu h2 {
-  padding-inline: 10%;
-  margin-bottom: 30px;
-}
-
-.card__menu {
-  margin: 0px 15px 40px 70px;
-  position: relative;
-}
-
 .menu img {
-  height: 275px;
   width: 100%;
   object-fit: cover;
 }
@@ -517,7 +552,7 @@ body {
 
 .title__menu {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
 }
 .title__menu h1 {
@@ -525,6 +560,7 @@ body {
   font-family: "Shrikhand", serif;
   font-weight: 400;
   font-style: italic;
+  padding-right: 10px;
 }
 
 .entree-menu h3 {

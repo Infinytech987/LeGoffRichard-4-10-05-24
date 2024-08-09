@@ -1,6 +1,5 @@
 .menu {
   img {
-    height: 275px;
     width: 100%;
     object-fit: cover;
   }
@@ -17,13 +16,14 @@
 }
 .title__menu {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   h1 {
     font-size: 28px;
     font-family: "Shrikhand", serif;
     font-weight: 400;
     font-style: italic;
+    padding-right: 10px;
   }
 }
 .entree-menu {
