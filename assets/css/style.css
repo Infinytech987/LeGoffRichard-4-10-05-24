@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   margin: 0;
   font-family: "Roboto", sans-serif;
@@ -401,7 +402,7 @@ body {
     opacity: 1;
   }
 }
-/*ANIMATION APPEAR CARD MENU */
+/*ANIMATION sur la Card Menu */
 .animation-card {
   animation-name: appear;
   animation-duration: 1000ms;
@@ -430,12 +431,12 @@ body {
     transform: translateY(0);
   }
 }
-/* ANIMATION BTN-CHECK */
-/* Before animation */
+/* ANIMATION BOUTON */
+/* Avant animation */
 .card {
   position: relative;
   overflow: hidden;
-  /* After animation */
+  /* Après animation */
 }
 .card .btn-check {
   border: 0;

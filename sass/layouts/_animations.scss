@@ -1,4 +1,4 @@
-// Animatioon Loader //
+// Animation Loader //
 
 .loader-position {
   position: fixed;
@@ -51,7 +51,7 @@
     opacity: 1;
   }
 }
-/*ANIMATION APPEAR CARD MENU */
+/*ANIMATION sur la Card Menu */
 
 .animation-card {
   animation-name: appear;
@@ -82,8 +82,8 @@
   }
 }
 
-/* ANIMATION BTN-CHECK */
-/* Before animation */
+/* ANIMATION BOUTON */
+/* Avant animation */
 
 .card {
   position: relative;
@@ -107,7 +107,7 @@
     }
   }
 
-  /* After animation */
+  /* Après animation */
 
   &:hover {
     cursor: pointer;
