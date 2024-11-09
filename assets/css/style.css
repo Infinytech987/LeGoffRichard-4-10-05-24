@@ -451,8 +451,6 @@ body {
 }
 .card .btn-check .fa-circle-check {
   color: white;
-  transform: rotate(220deg);
-  transition-duration: 0.6s;
 }
 .card:hover {
   cursor: pointer;
