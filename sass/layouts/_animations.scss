@@ -98,14 +98,18 @@
     height: 100%;
     width: 65px;
     border-radius: 0 20px 20px 0;
-    transition-duration: 0.55s;
+    transition: right 0.55s ease, transform 0.55s ease;
 
     .fa-circle-check {
       color: white;
     }
   }
 
-  /* Après animation */
+  .card-body strong {
+    position: relative;
+    right: 0;
+    transition: right 0.55s ease;
+  }
 
   &:hover {
     cursor: pointer;
@@ -118,8 +122,8 @@
       transform: rotate(0deg);
     }
 
-    strong {
-      margin-right: 60px;
+    .card-body strong {
+      right: 60px;
     }
   }
 }

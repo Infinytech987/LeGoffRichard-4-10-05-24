@@ -455,7 +455,6 @@ body {
 .card {
   position: relative;
   overflow: hidden;
-  /* Après animation */
 }
 .card .btn-check {
   border: 0;
@@ -466,10 +465,15 @@ body {
   height: 100%;
   width: 65px;
   border-radius: 0 20px 20px 0;
-  transition-duration: 0.55s;
+  transition: right 0.55s ease, transform 0.55s ease;
 }
 .card .btn-check .fa-circle-check {
   color: white;
+}
+.card .card-body strong {
+  position: relative;
+  right: 0;
+  transition: right 0.55s ease;
 }
 .card:hover {
   cursor: pointer;
@@ -480,8 +484,8 @@ body {
 .card:hover .fa-circle-check {
   transform: rotate(0deg);
 }
-.card:hover strong {
-  margin-right: 60px;
+.card:hover .card-body strong {
+  right: 60px;
 }
 
 @media (min-width: 992px) {
