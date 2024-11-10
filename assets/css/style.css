@@ -59,35 +59,49 @@ body {
 }
 
 .btn-heart {
-  border: none;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid white;
+  border-radius: 50%;
   background-color: white;
-}
-.btn-heart:hover .empty-heart {
-  display: none;
-}
-.btn-heart:hover .full-heart {
-  display: block;
-  color: rgb(147, 86, 220);
-  border: none;
-}
-.btn-heart .full-heart {
-  display: none;
+  cursor: pointer;
 }
 
-.btn-heart__menu {
-  border: none;
+/* Première icône : contour noir avec fond blanc */
+.btn-heart .empty-heart {
+  color: black;
+  font-size: 27px;
+  position: absolute;
+  transition: opacity 0.5s ease;
+}
+
+/* Deuxième icône (cachée par défaut) */
+.btn-heart .full-heart {
+  color: transparent;
+  font-size: 27px;
+  position: absolute;
+  opacity: 0;
+  background-image: linear-gradient(180deg, #ff79da, #9356dc);
+  background-clip: text;
+  -webkit-background-clip: text;
+  transition: opacity 0.5s ease;
+}
+
+.btn-heart:hover .empty-heart {
+  opacity: 0;
+}
+
+.btn-heart:hover .full-heart {
+  opacity: 1;
+}
+
+.btn-heart-menu {
   background-color: rgb(246, 246, 246);
-}
-.btn-heart__menu:hover .empty-heart {
-  display: none;
-}
-.btn-heart__menu:hover .full-heart {
-  display: block;
-  color: rgb(147, 86, 220);
-  border: none;
-}
-.btn-heart__menu .full-heart {
-  display: none;
+  border-color: rgb(246, 246, 246);
 }
 
 .h1 {

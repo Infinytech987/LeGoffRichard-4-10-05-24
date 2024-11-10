@@ -37,41 +37,49 @@
   box-shadow: 0.25rem 0.25rem 10px rgba(0, 0, 0, 0.45);
 }
 
+//* Style de base de la première icône cœur */
 .btn-heart {
-  border: none;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid white;
+  border-radius: 50%;
   background-color: white;
-
-  &:hover {
-    .empty-heart {
-      display: none;
-    }
-    .full-heart {
-      display: block;
-      color: $purple;
-      border: none;
-    }
-  }
-
-  .full-heart {
-    display: none;
-  }
+  cursor: pointer;
 }
-.btn-heart__menu {
-  border: none;
+
+/* Première icône : contour noir avec fond blanc */
+.btn-heart .empty-heart {
+  color: black;
+  font-size: 27px;
+  position: absolute;
+  transition: opacity 0.5s ease;
+}
+
+/* Deuxième icône (cachée par défaut) */
+.btn-heart .full-heart {
+  color: transparent;
+  font-size: 27px;
+  position: absolute;
+  opacity: 0;
+  background-image: linear-gradient(180deg, #ff79da, #9356dc);
+  background-clip: text;
+  -webkit-background-clip: text;
+  transition: opacity 0.5s ease;
+}
+
+.btn-heart:hover .empty-heart {
+  opacity: 0;
+}
+
+.btn-heart:hover .full-heart {
+  opacity: 1;
+}
+
+.btn-heart-menu {
   background-color: $grey2;
-
-  &:hover {
-    .empty-heart {
-      display: none;
-    }
-    .full-heart {
-      display: block;
-      color: $purple;
-      border: none;
-    }
-  }
-
-  .full-heart {
-    display: none;
-  }
+  border-color: $grey2;
 }
