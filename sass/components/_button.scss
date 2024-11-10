@@ -9,6 +9,10 @@
   justify-content: center;
   margin-top: 20px;
   margin-bottom: 20px;
+
+  &:hover {
+    transition-duration: 1s;
+  }
 }
 .btn1 {
   display: flex;
@@ -25,11 +29,14 @@
   font-size: 16px;
   font-weight: 500;
   text-decoration: none;
-  &:hover {
-    background: linear-gradient(to right bottom, lighten(#ff79da, 5), lighten(#9356dc, 5));
-    box-shadow: 0.25rem 0.25rem 10px rgb(0 0 0 / 45%);
-  }
+  transition-duration: 0.5s;
 }
+
+.btn1:hover {
+  background-image: linear-gradient(to right bottom, lighten(#ff79da, 5%), lighten(#9356dc, 5%));
+  box-shadow: 0.25rem 0.25rem 10px rgba(0, 0, 0, 0.45);
+}
+
 .btn-heart {
   border: none;
   background-color: white;
