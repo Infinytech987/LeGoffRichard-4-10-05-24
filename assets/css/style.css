@@ -452,42 +452,6 @@ body {
 }
 /* ANIMATION BOUTON */
 /* Avant animation */
-.card {
-  position: relative;
-  overflow: hidden;
-}
-.card .btn-check {
-  border: 0;
-  position: absolute;
-  top: 0px;
-  right: -100px;
-  background-color: rgb(153, 226, 208);
-  height: 100%;
-  width: 65px;
-  border-radius: 0 20px 20px 0;
-  transition: right 0.55s ease, transform 0.55s ease;
-}
-.card .btn-check .fa-circle-check {
-  color: white;
-}
-.card .card-body strong {
-  position: relative;
-  right: 0;
-  transition: right 0.55s ease;
-}
-.card:hover {
-  cursor: pointer;
-}
-.card:hover .btn-check {
-  right: 0;
-}
-.card:hover .fa-circle-check {
-  transform: rotate(0deg);
-}
-.card:hover .card-body strong {
-  right: 60px;
-}
-
 @media (min-width: 992px) {
   .header {
     box-shadow: none;
@@ -607,39 +571,57 @@ body {
   position: relative;
   padding-left: 15px;
   padding-right: 15px;
+  overflow: hidden;
 }
-
-.card-title h3 {
+.card .btn-check {
+  border: 0;
+  position: absolute;
+  top: 0px;
+  right: -100px;
+  background-color: rgb(153, 226, 208);
+  height: 100%;
+  width: 65px;
+  border-radius: 0 20px 20px 0;
+  transition: right 0.55s ease, transform 0.55s ease;
+}
+.card .btn-check .fa-circle-check {
+  color: white;
+  transition: transform 0.55s ease;
+}
+.card .card-body strong {
+  position: relative;
+  right: 0;
+  transition: right 0.55s ease;
+}
+.card:hover {
+  cursor: pointer;
+}
+.card:hover .btn-check {
+  right: 0;
+}
+.card:hover .fa-circle-check {
+  transform: rotate(0deg);
+}
+.card:hover .card-body strong {
+  right: 60px;
+}
+.card .card-title h3 {
   font-size: 18px;
   margin-block-end: 0;
   margin-bottom: -12px;
   font-weight: 500;
   text-overflow: ellipsis;
   white-space: nowrap;
-  white-space-collapse: collapse;
-  text-wrap: nowrap;
   overflow: hidden;
 }
-.card-title p {
+.card .card-title p {
   font-size: 17px;
-  font-weight: 300;
-}
-
-.card-body {
-  display: flex;
-  justify-content: space-between;
-}
-
-.para-body {
   font-weight: 300;
   text-overflow: ellipsis;
   white-space: nowrap;
-  white-space-collapse: collapse;
-  text-wrap: nowrap;
   overflow: hidden;
 }
-
-.plat {
+.card .plat {
   margin-top: 50px;
 }
 
