@@ -450,8 +450,6 @@ body {
     transform: translateY(0);
   }
 }
-/* ANIMATION BOUTON */
-/* Avant animation */
 @media (min-width: 992px) {
   .header {
     box-shadow: none;
@@ -550,9 +548,14 @@ body {
   padding-right: 10px;
 }
 
+.entree-menu-1 {
+  margin-top: -40px;
+}
+
 .entree-menu h3 {
   font-size: 16px;
   font-weight: 300;
+  margin-top: 50px;
 }
 .entree-menu hr {
   width: 40px;
@@ -605,6 +608,13 @@ body {
 .card:hover .card-body strong {
   right: 60px;
 }
+.card:hover .card-title {
+  margin-right: 65px;
+  transition: all 0.55s ease;
+}
+.card .card-title {
+  transition: all 0.55s ease;
+}
 .card .card-title h3 {
   font-size: 18px;
   margin-block-end: 0;
@@ -620,6 +630,12 @@ body {
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
+  min-width: 30px;
+}
+.card .card-subtitle {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
 }
 .card .plat {
   margin-top: 50px;
